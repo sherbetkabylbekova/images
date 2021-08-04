@@ -1,0 +1,24 @@
+
+.small img{
+    Width:206px;
+    Height:127px;
+    object-fit: cover;
+    margin: 0 47px;
+}
+.big img{
+    width: 816px;
+    Height:447px;
+    object-fit: cover;
+    margin: 87px 0;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.small-img{
+     border: 2px solid transparent;
+ }
+.active{
+    border: 2px solid #d50404;
+}
